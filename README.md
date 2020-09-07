@@ -2,7 +2,7 @@
  A client server setup using RMI and Java Sockets
  
  
- # IPC document.pdf 
+ # Assignment-IPC document.pdf 
 -has details of what is expected in the task
  
  # Description_of_tasks.pdf
