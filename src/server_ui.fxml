@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<AnchorPane prefHeight="492.0" prefWidth="645.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SocketServer">
+   <children>
+      <TextArea fx:id="output_window" editable="false" layoutX="129.0" layoutY="227.0" prefHeight="216.0" prefWidth="446.0" scrollTop="1.0" wrapText="true" />
+      <Button fx:id="close" layoutX="331.0" layoutY="451.0" mnemonicParsing="false" onAction="#closeConnection" prefHeight="27.0" prefWidth="112.0" text="Close Connection" />
+      <Text layoutX="250.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SERVER INTERFACE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="btn_setPort" layoutX="250.0" layoutY="50.0" mnemonicParsing="false" onAction="#initServer" prefHeight="25.0" prefWidth="187.0" text="Click here to set Port Number" />
+      <Text layoutX="250" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Port Number" wrappingWidth="68.8828125" />
+      <Text layoutX="289.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Feedback:" wrappingWidth="68.8828125" />
+      <TextField fx:id="txtPortNumber" editable="false" layoutX="323.0" layoutY="99.0" prefHeight="27.0" prefWidth="112.0" />
+      <Button fx:id="btn_startServer" layoutX="250.0" layoutY="141.0" mnemonicParsing="false" onAction="#openClientWindow" prefHeight="7.0" prefWidth="91.0" text="Start Client" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
